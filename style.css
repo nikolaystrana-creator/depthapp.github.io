@@ -1,5 +1,5 @@
 /*
-  Depth — depthapp.tech
+  Depth — depth-app.tech
   Dark, minimal landing in the spirit of flamingocards.co:
   big wordmark, tagline, App Store badge, App Store search screenshot.
 */
@@ -197,6 +197,25 @@ nav a:hover {
 .content p {
   margin-bottom: 1rem;
   color: #e0e0e0;
+}
+
+.content a {
+  color: var(--accent-1);
+  text-underline-offset: 0.18em;
+  overflow-wrap: anywhere;
+}
+
+.content a:visited {
+  color: var(--accent-1);
+}
+
+.content a:hover {
+  color: #ffffff;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--accent-1);
+  outline-offset: 4px;
 }
 
 .updated {
